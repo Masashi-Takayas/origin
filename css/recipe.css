@@ -1,0 +1,46 @@
+body {
+  background-image: url(../images/bg_Argyle.jpg);
+}
+
+#img {
+  border: 4px double #ff0000;
+
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  width: 300px;
+  border-width: 3px;
+  border-color: red;
+  background-color: rgb(243, 212, 87);
+}
+
+#right {
+  display: flex;
+}
+
+.box1 {
+  background-color: rgb(255, 255, 255);
+  border: solid 2px rgb(122, 93, 110);
+  margin: auto;
+  width: 40%;
+  padding-bottom: 6%;
+  border-radius: 30px;
+  /* 角を丸くする */
+}
+
+.border1{
+  border: solid 2px rgb(122, 93, 110);
+  border-radius: 5px;
+  /* 角を丸くする */
+}
+
+.textlines{
+  width: 300px;             /* 横幅 */
+  height: 50px;           /* 高さ */
+  font-size: 15px;
+  font-weight: bold;
+}
